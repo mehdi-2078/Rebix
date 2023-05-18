@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    body {
+        @apply text-black dark:text-white bg-gray-200 dark:bg-[#263447]
+    }
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    font-family: 'IRANYEKAN', sans-serif;
+    direction: rtl;
+}
+
+@font-face {
+    font-family: 'IRANYEKAN';
+    src: url('assets/fonts/woff2/IRANYekanX-Regular.woff2') format('woff2');
+    src: url('assets/fonts/woff/IRANYekanX-Regular.woff') format('woff');
+    font-display: swap;
+}
